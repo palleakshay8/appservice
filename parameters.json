@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "451a930d-8b7e-415f-8bf3-e2be6e7c2d54"
+        },
+        "name": {
+            "value": "akser"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-mypractice-807c"
+        },
+        "serverFarmResourceGroup": {
+            "value": "my_practice"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
